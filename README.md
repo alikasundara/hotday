@@ -1,8 +1,11 @@
 # HOTDay (Hint Of The Day)
 
-Generate a fortune file based on a bunch of input files. The original idea was for me to regularly get random reminders about things that I want to persist in my memory. It could be important dates, technology hints or any other random facts.
+Generate a fortune file based on a bunch of input files.
 
-Usage:
+## Why
+To regularly get random reminders about things that I want to persist in my memory. It could be important dates, technology hints or any other random facts that are worth memorising.
+
+## Usage
 - ensure that [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) is installed
 - keep adding facts to `.in` files, separating them by `%`. Make sure there's no newline after the last `%`.
 - ensure that the `FORTUNE_DIR` in `install.sh` is pointing to the directory with fortune files on your system, normally `/usr/share/fortune`,
