@@ -1,0 +1,2 @@
+Spring properties can be overwritten by environment variables and have a default value at the same time: app.motd=${APP_DEV_MOTD:Have a nice dev day}
+%
