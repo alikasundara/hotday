@@ -1,0 +1,2 @@
+docker stop: The main process inside the container will receive SIGTERM, and after a grace period, SIGKILL.
+%
